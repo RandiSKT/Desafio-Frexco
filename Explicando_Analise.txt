@@ -1,0 +1,18 @@
+Etapas da Análise
+
+1 - Visualizar os dados
+
+2 - Identificar que o período de 18 a 27 de dezembro é atípico (outliers).
+
+3 - Substituir os outliers. No caso, foi repetido o valor do mesmo dia da semana anterior.
+
+4 - Identificar que há sazonalidade diária. Finais de semana vendem pouco e nos dias úteis também
+há diferenças
+
+5 - Criar fatores de sazonalidade diária e ajustar os dados.
+
+6 - Utilizar um modelo para projetar (usando os dados já trabalhados - sem os outliers e sem a sazonalidade diária)
+
+7 - Projetar os cinco dias utilizando o modelo.
+
+8 - Aplicar os fatores de sazonalidade sobre os números projetados  para obter o número final, que contempla a sazonalidade diária.
