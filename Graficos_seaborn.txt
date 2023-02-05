@@ -1,0 +1,14 @@
+Para visualizar os gráficos utilizei o kaggle, pois no idle e VScode não conseguia exibi-los.
+Para que eles possam visualizar os dados é preciso importar o csv e fazer as alterações dos dados como foi feito no arquivo Previsão.py
+
+# Definindo tamanho do gráfico
+plt.figure(figsize=(20,6))
+
+# Gráfico de linha mostrando quantidade de vendas e datas
+sns.lineplot(x='Data', y='Vendas', data=df)
+
+# Gráfico de barras mostrando quantidade de vendas nos dias da semana
+sns.barplot(x='dia_da_semana', y='Vendas', data=df)
+
+# Gráfico de pontos mostrando vendas e datas com dias da semana de cores diferentes
+sns.pointplot(x='Data', y='Vendas', data=df, hue='dia_da_semana')
